@@ -67,12 +67,12 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 
 
 function is31Flavors(originalFlavors){
-   if(originalFlavors.length !== 31){
-       return false;
-   }
    if(originalFlavors.length === 31){
        return true;
    }
+   else{
+   return false;
+}
 }
 console.log(is31Flavors(originalFlavors));
 
